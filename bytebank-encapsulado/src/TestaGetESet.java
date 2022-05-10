@@ -17,7 +17,7 @@ public class TestaGetESet {
 
         conta.setTitular(leo);
         leo.setCpf("CPF: 111.222.777-99");
-        leo.setProfissao("Profissão: Database Engineering Business");
+        leo.setProfissao("Profissão: dev");
         System.out.println(conta.getTitular().getNome());
         System.out.println(conta.getTitular().getCpf());
         System.out.println(conta.getTitular().getProfissao());
